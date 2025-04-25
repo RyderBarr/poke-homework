@@ -1,0 +1,110 @@
+body{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3px;
+    align-items: center;
+    justify-content: space-evenly;
+    background: antiquewhite;
+}
+
+div{
+
+    border-radius: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    width: 300px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+img{
+
+    width:100px;
+    align-self: center;
+
+}
+
+h2{
+
+    align-self: center;
+}
+
+p{
+    align-self: center;
+}
+
+.normal{
+    background-image: radial-gradient(beige,rgb(237, 249, 201),antiquewhite);
+}
+
+.fire{
+    background-image: linear-gradient(yellow,red,yellow);
+}
+
+.water{
+    background-image: repeating-radial-gradient(blue,rgb(58, 177, 201),blue,blue);
+}
+
+.grass{
+    background-image: linear-gradient(green, green, lime);
+}
+
+.flying{
+    background-image: radial-gradient(white,white,lightblue);
+}
+
+.fighting{
+    background-image: radial-gradient(orange,orange,darkred,orange,orange,darkred);
+}
+
+.poison{
+    background-image: radial-gradient(plum,purple);
+}
+
+.electric{
+    background-image: repeating-linear-gradient(yellow, white,yellow,white yellow,white yellow,white yellow,white yellow,white);
+}
+
+.ground{
+    background-color: rgb(209, 114, 5);
+}
+
+.rock{
+    background-color: grey;
+}
+
+.psychic{
+    background-color: plum;
+}
+
+.ice{
+    background-color: cyan;
+}
+
+.bug{
+    background-color: chocolate;
+}
+
+.ghost{
+    background-color: ghostwhite;
+}
+
+.steel{
+    background-color: steelblue;
+}
+
+.dragon{
+    background-color: coral;
+}
+
+.dark{
+    background-color: darkgray;
+}
+
+.fairy{
+    background-color: pink;
+}
