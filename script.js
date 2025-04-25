@@ -114,7 +114,13 @@ $(document).ready(function(){
 
                             <img src="${data.sprites.front_default}" alt="">
 
-                            <p>${data.base_experience}</p>
+                            <p>base experience: ${data.base_experience}</p>
+                            
+                            <p>type: ${data.types[0]?.type.name}</p>
+                            
+                            <p>ability: ${data.abilities[0]?.ability.name}</p>
+
+                            
 
                         </div>
                         `)                    
