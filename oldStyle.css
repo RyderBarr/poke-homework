@@ -1,3 +1,4 @@
+/* old version V */
 body{
 
     display: flex;
@@ -7,19 +8,6 @@ body{
     align-items: center;
     justify-content: space-evenly;
     background: antiquewhite;
-}
-
-header{
-
-    background: salmon;
-    display: flex;
-    width:100%;
-    align-items: center;
-    justify-content: center;
-    border: solid black 2px;
-    margin: 3px;
-    border-radius: 50px;
-
 }
 
 div{
@@ -41,22 +29,19 @@ img{
 
 }
 
-h1{
-
-    align-self: center;
-
-}
-
 h2{
 
     align-self: center;
-
 }
 
 p{
-
     align-self: center;
+}
 
+.normal{
+    background-image: radial-gradient(beige,rgb(237, 249, 201),antiquewhite),linear-gradient(blue,green);
+
+    background-blend-mode: screen;
 }
 
 .fire{
@@ -67,20 +52,61 @@ p{
 
 }
 
+.water{
+    background-image: repeating-radial-gradient(blue,rgb(58, 177, 201),rgb(58, 177, 201),blue,blue,blue), linear-gradient(green,yellow);
+
+    background-blend-mode: screen;
+
+}
+
+.grass{
+    background-image: linear-gradient(green, green, lime),radial-gradient(beige,green);
+
+    background-blend-mode: hue;
+}
+
+.flying{
+
+    background-image: radial-gradient(white,lime,white,green),linear-gradient(blue,purple);
+
+    background-blend-mode: lighten;
+
+}
+
+.fighting{
+
+    background-image: linear-gradient(to bottom left, orange, darkred 65%),linear-gradient(to bottom right, orange, darkred 65%);
+
+}
+
 .poison{
     background-image: radial-gradient(plum,purple),linear-gradient(to right, black, purple, black 98%);
 
     background-blend-mode: luminosity;
 }
 
+.electric{
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(255, 238, 0)),
+    linear-gradient(to right, #000000, #feeb39);
+    
+    background-blend-mode: screen;
+}
+
 .ground{
 
     background-color: rgb(209, 114, 5);
     background-image: url(https://t4.ftcdn.net/jpg/01/07/76/85/360_F_107768523_jtL7cY9ajSRuTJmCfj4SAhTF8cebX317.jpg);
-    /* color:plum; */
     
     background-blend-mode: screen;
 
+}
+
+.rock{
+    background-color: peru;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Iqi_Yq9YkI9JJ3y5CrgMS6Rmd0p0jUPAMA&s);
+    background-size: cover;
+    color: white;
+    background-blend-mode: darken;
 }
 
 .psychic{
@@ -99,17 +125,15 @@ p{
 }
 
 .bug{
-    background-color: orange;
-    background-image: url(https://static01.nyt.com/images/2019/06/18/science/18sci-migrations1/merlin_156362529_47a2db4e-d836-4699-8d02-37e00fe5d64f-facebookJumbo.jpg?year=2019&h=550&w=1050&s=be01106d78ffdf36bc6dc1338703b4712209c47861b5beb6673afa518e3919c2&k=ZQJBKqZ0VN);
-
-    color: black;
-    text-shadow:grey 1px 0px,grey -1px 0px,white -2px 0px, white 2px 0px;
-
-    background-blend-mode: screen;
+    background-color: chocolate;
 }
 
 .ghost{
     background-color: ghostwhite;
+}
+
+.steel{
+    background-color: steelblue;
 }
 
 .dragon{
@@ -120,5 +144,6 @@ p{
     background-color: darkgray;
 }
 
-
-
+.fairy{
+    background-color: pink;
+} 
