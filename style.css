@@ -155,6 +155,7 @@ p{
 }
 
 .water{
+
     background-image: repeating-radial-gradient(blue,rgb(58, 177, 201),rgb(58, 177, 201),blue,blue,blue), linear-gradient(green,yellow);
 
     background-blend-mode: screen;
@@ -162,9 +163,11 @@ p{
 }
 
 .grass{
+
     background-image: linear-gradient(green, green, lime),radial-gradient(beige,green);
 
     background-blend-mode: hue;
+
 }
 
 .flying{
@@ -182,16 +185,20 @@ p{
 }
 
 .poison{
+
     background-image: radial-gradient(plum,purple),linear-gradient(to right, black, purple, black 98%);
 
     background-blend-mode: luminosity;
+
 }
 
 .electric{
+
     background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(255, 238, 0)),
     linear-gradient(to right, #000000, #feeb39);
     
     background-blend-mode: screen;
+
 }
 
 .ground{
@@ -204,11 +211,13 @@ p{
 }
 
 .rock{
-    background-color: white;
+
+    background-color: peru;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Iqi_Yq9YkI9JJ3y5CrgMS6Rmd0p0jUPAMA&s);
     background-size: cover;
     color: white;
     background-blend-mode: darken;
+
 }
 
 .rock>h2{
@@ -216,6 +225,7 @@ p{
     background: rgba(0, 0, 0, .5);
 
 }
+
 .rock>p{
 
     background: rgba(0, 0, 0, .5);
@@ -235,6 +245,7 @@ p{
     background-image: linear-gradient(to top left, blue, cyan),radial-gradient(snow,black);
 
     background-blend-mode: screen;
+
 }
 
 .bug{
