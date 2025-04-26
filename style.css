@@ -47,6 +47,7 @@ input{
     align-self: center;
     border-radius: 20px;
     padding: 5px;
+    margin: 5px;
 
 }
 
@@ -89,6 +90,7 @@ button{
     background-color: white;
     border-radius: 20px;
     padding: 10px;
+    margin: 5px;
 
 }
 
@@ -202,11 +204,22 @@ p{
 }
 
 .rock{
-    background-color: peru;
+    background-color: white;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Iqi_Yq9YkI9JJ3y5CrgMS6Rmd0p0jUPAMA&s);
     background-size: cover;
     color: white;
     background-blend-mode: darken;
+}
+
+.rock>h2{
+
+    background: rgba(0, 0, 0, .5);
+
+}
+.rock>p{
+
+    background: rgba(0, 0, 0, .5);
+
 }
 
 .psychic{
