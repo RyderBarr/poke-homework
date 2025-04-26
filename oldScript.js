@@ -166,7 +166,7 @@ $(document).ready(function(){
 
                     {
                         
-
+                        prompt("that isn't a pokemon")
                         throw new Error
                         (
                     
