@@ -50,11 +50,31 @@ input{
 
 }
 
+a{
+
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 button{
 
-    width: 200%;
+    width: 80%;
     align-self: center;
-    border: red 2px outset;
+    border: blue 2px outset;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.ultra{
+
+    width: 80%;
+    align-self: center;
+    border: yellow 2px outset;
     background-color: white;
     border-radius: 20px;
     padding: 10px;
@@ -205,25 +225,50 @@ p{
 }
 
 .bug{
-    background-color: chocolate;
+
+    background-image: url(https://pokemongohub.net/wp-content/uploads/2019/01/Bug-Types.jpg);
+    background-size: 150%;
+
 }
 
 .ghost{
-    background-color: ghostwhite;
+
+    background-image: radial-gradient(white, grey,white),linear-gradient(grey,black,grey);
+
+    background-blend-mode: overlay;
+
+    color: plum;
+
 }
 
 .steel{
-    background-color: steelblue;
+    
+    background-image: linear-gradient(to right, steelblue,lightgrey), linear-gradient(steelblue,darkgray);
+
+    background-blend-mode: color-burn;
+
 }
 
 .dragon{
-    background-color: coral;
+
+    background-image: linear-gradient(to top left, cyan, coral, cyan),linear-gradient(to top right, coral, cyan,coral);
+
+    background-blend-mode: color;
+
 }
 
 .dark{
-    background-color: darkgray;
+
+    background-image: radial-gradient(white, grey ,black, white),linear-gradient(to top right, rgb(85, 0, 85),rgb(5, 68, 119));
+
+    background-blend-mode: exclusion;
+
 }
 
 .fairy{
-    background-color: pink;
+    
+    background-image: linear-gradient(to top left, blue, coral),linear-gradient(to top right, coral, blue);
+
+    background-blend-mode: color-dodge;
+
 } 
