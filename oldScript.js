@@ -111,7 +111,7 @@ $(document).ready(function(){
 
                     data=>
                     {
-                        $('body').append(`
+                        $('pokemon').append(`
                         <div class='${data.types[0]?.type.name} pokemon'>
         
                             <h2> ${data.name} </h2>

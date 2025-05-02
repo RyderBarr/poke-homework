@@ -138,6 +138,19 @@ p{
 
 }
 
+pokemon{
+
+    border: 1px solid black;
+    width: 80%;
+    height: 40;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
 .normal{
 
     background-image: radial-gradient(beige,rgb(237, 249, 201),antiquewhite),linear-gradient(blue,green);
