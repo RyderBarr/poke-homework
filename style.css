@@ -22,8 +22,8 @@ body{
 div{
 
     border-radius: 20px;
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -33,8 +33,8 @@ div{
 nav{
 
     border-radius: 20px;
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     border: 2px solid black;
     display: flex;
     flex-direction: row;
@@ -99,8 +99,8 @@ button{
     border-radius: 20px;
     margin: 20px;
     padding: 0px;
-    border: 2px solid black;
-    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 300px;
     height: 340px;
     display: flex;
     flex-direction: column;
@@ -141,6 +141,7 @@ p{
 pokemon{
 
     border: 1px solid black;
+    background: rgba(0, 0, 0, .8);
     width: 90%;
     height: 40vh;
     display: flex;
